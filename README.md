@@ -1,9 +1,9 @@
-OpenTBSBundle for ZF2
+OpenTBSBundle for Laminas
 =========================
 
 This bundle is just a convenient way to use OpenTBS, all the credits go to https://github.com/mbence, Skrol29 and the TinyButStrong team. http://www.tinybutstrong.com/
 
-OpenTBS - create OpenOffice and Ms Office documents with PHP (and ZF2)
+OpenTBS - create OpenOffice and Ms Office documents with PHP (and Laminas)
 
 
 ## Introduction
@@ -23,13 +23,13 @@ What is special to OpenTBS:
 * Works with both PHP 4 and PHP 5.
 
 ## Versions included
-TinyButStrong - 3.9.0
+TinyButStrong - 3.11.0
 
-OpenTBS - 1.9.4
+OpenTBS - 1.10.0
 
 ## Requirements
 
-* ZF2
+* Laminas
 * It is better to have the [Zlib](http://www.php.net/manual/en/book.zlib.php) extension enabled on your PHP installation. If it's not, [here is what to do](http://www.tinybutstrong.com/plugins/opentbs/tbs_plugin_opentbs.html#zlib).
 
 ## Installation

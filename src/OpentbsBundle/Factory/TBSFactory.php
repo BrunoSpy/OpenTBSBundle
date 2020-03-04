@@ -1,8 +1,8 @@
 <?php
 namespace OpentbsBundle\Factory;
 
-use Zend\ServiceManager\FactoryInterface;
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Interop\Container\ContainerInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 
 include_once(__DIR__ . '/../../lib/tbs_class.php');
 include_once(__DIR__ . '/../../lib/tbs_plugin_opentbs.php');
@@ -30,7 +30,7 @@ class TBSFactory extends \clsTinyButStrong implements FactoryInterface
      * @param ServiceLocatorInterface $serviceLocator
      * @return mixed
      */
-    public function createService(ServiceLocatorInterface $serviceLocator)
+    public function __invoke(ContainerInterface $container, $requestedName, array $options = null)
     {
         return $this;
     }

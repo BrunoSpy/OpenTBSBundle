@@ -1,8 +1,8 @@
 {
     "name": "kipperlenny/opentbs-bundle",
     "type": "library",
-    "description": "OpenTBS Bundle for ZF2 - create OpenOffice and Ms Office documents with ZF2",
-    "keywords": ["zf2","TBS","OpenTBS", "document", "OpenOffice", "MS Office", "odt", "docx", "xlsx", "pptx"],
+    "description": "OpenTBS Bundle for Laminas - create OpenOffice and Ms Office documents with Laminas",
+    "keywords": ["laminas","TBS","OpenTBS", "document", "OpenOffice", "MS Office", "odt", "docx", "xlsx", "pptx"],
     "homepage": "https://github.com/kipperlenny/OpenTBSBundle",
     "license": "MIT",
     "authors": [
